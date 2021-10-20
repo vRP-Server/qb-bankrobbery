@@ -367,12 +367,12 @@ function openLocker(bankId, lockerId)
                     QBCore.Functions.Notify("Canceled..", "error")
                     IsDrilling = false
                 end)
-                Citizen.CreateThread(function()
-                    while IsDrilling do
-                        TriggerServerEvent('hud:server:GainStress', math.random(4, 8))
-                        Citizen.Wait(10000)
-                    end
-                end)
+                -- Citizen.CreateThread(function()
+                --     while IsDrilling do
+                --         TriggerServerEvent('hud:server:GainStress', math.random(4, 8))
+                --         Citizen.Wait(10000)
+                --     end
+                -- end)
             else
                 QBCore.Functions.Notify("Looks like the safe lock is too strong ..", "error")
                 TriggerServerEvent('qb-bankrobbery:server:setLockerState', bankId, lockerId, 'isBusy', false)
@@ -410,12 +410,12 @@ function openLocker(bankId, lockerId)
                     QBCore.Functions.Notify("Canceled..", "error")
                     IsDrilling = false
                 end)
-                Citizen.CreateThread(function()
-                    while IsDrilling do
-                        TriggerServerEvent('hud:server:GainStress', math.random(4, 8))
-                        Citizen.Wait(10000)
-                    end
-                end)
+                -- Citizen.CreateThread(function()
+                --     while IsDrilling do
+                --         TriggerServerEvent('hud:server:GainStress', math.random(4, 8))
+                --         Citizen.Wait(10000)
+                --     end
+                -- end)
             else
                 QBCore.Functions.Notify("Looks like the safe lock is too strong ..", "error")
                 TriggerServerEvent('qb-bankrobbery:server:setLockerState', bankId, lockerId, 'isBusy', false)
@@ -445,12 +445,12 @@ function openLocker(bankId, lockerId)
             QBCore.Functions.Notify("Canceled..", "error")
             IsDrilling = false
         end)
-        Citizen.CreateThread(function()
-            while IsDrilling do
-                TriggerServerEvent('hud:server:GainStress', math.random(4, 8))
-                Citizen.Wait(10000)
-            end
-        end)
+        -- Citizen.CreateThread(function()
+        --     while IsDrilling do
+        --         TriggerServerEvent('hud:server:GainStress', math.random(4, 8))
+        --         Citizen.Wait(10000)
+        --     end
+        -- end)
     end
 end
 

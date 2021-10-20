@@ -6,7 +6,7 @@ var MainCounter = 0;
 var MainDigits = 5;
 var RotationTime = 15000; // time ms
 var RotationDegree = 3180*(RotationTime/15000);
-var HitDistance = 25; // hit distance in px
+var HitDistance = 45; // hit distance in px
 var killTimeout;
 var active = false;
 

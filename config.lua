@@ -395,7 +395,7 @@ Config.BigBanks = {
             [1] = {
                 ["coords"] = vector3(-106.11, 6475.36, 31.62),
                 ["isOpened"] = false,
-                ["doorId"] = 5
+                ["doorId"] = 80
             }
         },
         ["camId"] = 26,
@@ -459,12 +459,12 @@ Config.BigBanks = {
             [1] = {
                 ["coords"] = vector3(252.55, 221.15, 101.68),
                 ["isOpened"] = false,
-                ["doorId"] = 2
+                ["doorId"] = 77
             },
             [2] = {
                 ["coords"] = vector3(261.15, 215.21, 101.68),
                 ["isOpened"] = false,
-                ["doorId"] = 3
+                ["doorId"] = 78
             }
         },
         ["camId"] = 26,
